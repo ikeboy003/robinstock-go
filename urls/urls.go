@@ -3,7 +3,7 @@ package urls
 import (
 	"fmt"
 
-	"github.com/yourusername/robinstock_go/models"
+	"github.com/ikeboy003/robinstock-go/models"
 )
 
 func LoginURL() string {

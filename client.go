@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yourusername/robinstock_go/models"
-	"github.com/yourusername/robinstock_go/utils"
+	"github.com/ikeboy003/robinstock-go/models"
+	"github.com/ikeboy003/robinstock-go/utils"
 )
 
 const (

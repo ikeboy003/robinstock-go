@@ -1,6 +1,6 @@
 package robinstock_go
 
-import "github.com/yourusername/robinstock_go/utils"
+import "github.com/ikeboy003/robinstock-go/utils"
 
 var (
 	GetString        = utils.GetString

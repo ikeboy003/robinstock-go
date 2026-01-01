@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/yourusername/robinstock_go"
-	"github.com/yourusername/robinstock_go/urls"
-	"github.com/yourusername/robinstock_go/utils"
+	"github.com/ikeboy003/robinstock-go"
+	"github.com/ikeboy003/robinstock-go/urls"
+	"github.com/ikeboy003/robinstock-go/utils"
 )
 
 // GetAllOptionOrders returns all option orders for an account.

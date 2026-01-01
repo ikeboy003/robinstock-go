@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/yourusername/robinstock_go"
-	"github.com/yourusername/robinstock_go/urls"
+	"github.com/ikeboy003/robinstock-go"
+	"github.com/ikeboy003/robinstock-go/urls"
 )
 
 func handleSheriffVerification(ctx context.Context, client *robinstock_go.Client, deviceToken, workflowID string) error {

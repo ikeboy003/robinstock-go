@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yourusername/robinstock_go"
-	"github.com/yourusername/robinstock_go/models"
-	"github.com/yourusername/robinstock_go/utils"
+	"github.com/ikeboy003/robinstock-go"
+	"github.com/ikeboy003/robinstock-go/models"
+	"github.com/ikeboy003/robinstock-go/utils"
 )
 
 // GetInstrumentBySymbol returns instrument data for a symbol.

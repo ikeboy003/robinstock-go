@@ -5,11 +5,11 @@ import (
 	"log"
 	"strings"
 
-	"github.com/yourusername/robinstock_go"
-	"github.com/yourusername/robinstock_go/models"
-	"github.com/yourusername/robinstock_go/stocks"
-	"github.com/yourusername/robinstock_go/urls"
-	"github.com/yourusername/robinstock_go/utils"
+	"github.com/ikeboy003/robinstock-go"
+	"github.com/ikeboy003/robinstock-go/models"
+	"github.com/ikeboy003/robinstock-go/stocks"
+	"github.com/ikeboy003/robinstock-go/urls"
+	"github.com/ikeboy003/robinstock-go/utils"
 )
 
 // GetTopMoversSP500 returns top moving stocks in the S&P 500.

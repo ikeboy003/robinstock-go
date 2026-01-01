@@ -62,8 +62,8 @@ import (
     "context"
     "log"
 
-    "github.com/yourusername/robinstock_go/auth"
-    "github.com/yourusername/robinstock_go/stocks"
+    "github.com/ikeboy003/robinstock-go/auth"
+    "github.com/ikeboy003/robinstock-go/stocks"
 )
 
 func main() {

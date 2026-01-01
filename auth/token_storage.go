@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/yourusername/robinstock_go/models"
+	"github.com/ikeboy003/robinstock-go/models"
 )
 
 func getTokenFilePath(username string) string {

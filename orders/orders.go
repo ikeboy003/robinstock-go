@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/yourusername/robinstock_go"
-	"github.com/yourusername/robinstock_go/profiles"
-	"github.com/yourusername/robinstock_go/stocks"
-	"github.com/yourusername/robinstock_go/urls"
-	"github.com/yourusername/robinstock_go/utils"
+	"github.com/ikeboy003/robinstock-go"
+	"github.com/ikeboy003/robinstock-go/profiles"
+	"github.com/ikeboy003/robinstock-go/stocks"
+	"github.com/ikeboy003/robinstock-go/urls"
+	"github.com/ikeboy003/robinstock-go/utils"
 )
 
 // GetAllStockOrders returns all stock orders for an account.
