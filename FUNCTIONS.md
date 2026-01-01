@@ -114,19 +114,7 @@
 | `OrderSellFractionalByQuantity` | ✅ | Sell fractional shares by quantity |
 | `OrderSellFractionalByPrice` | ✅ | Sell fractional shares by dollar amount |
 
-### Options Orders
-| Function | Status | Description |
-|----------|--------|-------------|
-| `GetOptionOrders` | ❌ | Get all option orders |
-| `GetOpenOptionOrders` | ❌ | Get open option orders |
-| `CancelOptionOrder` | ❌ | Cancel option order |
-| `OrderBuyOptionLimit` | ❌ | Buy option with limit |
-| `OrderSellOptionLimit` | ❌ | Sell option with limit |
-| `OrderOptionSpread` | ❌ | Place spread order |
-| `OrderCreditSpread` | ❌ | Place credit spread |
-| `OrderDebitSpread` | ❌ | Place debit spread |
-
-### Options (in orders package)
+### Options Orders (in orders package)
 | Function | Status | Description |
 |----------|--------|-------------|
 | `GetAllOptionOrders` | ✅ | Get all option orders |
@@ -147,13 +135,13 @@
 ### Crypto Orders
 | Function | Status | Description |
 |----------|--------|-------------|
-| `GetCryptoOrders` | ⏭️ | Skipped (user doesn't trade crypto) |
-| `OrderBuyCrypto` | ⏭️ | Skipped (user doesn't trade crypto) |
-| `OrderSellCrypto` | ⏭️ | Skipped (user doesn't trade crypto) |
-| `CancelCryptoOrder` | ⏭️ | Skipped (user doesn't trade crypto) |
-| `GetCryptoPositions` | ⏭️ | Skipped (user doesn't trade crypto) |
-| `GetCryptoQuote` | ⏭️ | Skipped (user doesn't trade crypto) |
-| `GetCryptoHistoricals` | ⏭️ | Skipped (user doesn't trade crypto) |
+| `GetCryptoOrders` | TBD | Get all crypto orders |
+| `OrderBuyCrypto` | TBD | Buy cryptocurrency |
+| `OrderSellCrypto` | TBD | Sell cryptocurrency |
+| `CancelCryptoOrder` | TBD | Cancel crypto order |
+| `GetCryptoPositions` | TBD | Get crypto positions |
+| `GetCryptoQuote` | TBD | Get crypto quote |
+| `GetCryptoHistoricals` | TBD | Get crypto historical data |
 
 ---
 
@@ -167,7 +155,7 @@
 - **Stocks**: 13/13 functions (100%) ✅
 - **Orders (Stock)**: 18/18 functions (100%) ✅
 - **Orders (Options)**: 14/14 functions (100%) ✅
-- **Orders (Crypto)**: Skipped (user doesn't trade crypto)
+- **Orders (Crypto)**: TBD
 
 ### Priority Order
 1. ✅ Auth - **COMPLETE** (Login, Refresh, Logout, Sheriff verification, Token storage)
